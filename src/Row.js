@@ -40,7 +40,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
         fetchData();
      },[fetchUrl]);
 
-     console.log(movies);
+    //  console.log(movies);
     const loadMovie = (moviename) => {
         setMovieUrl(VideoDB.VideoDB(moviename));
         console.log("movie url = "+ movieUrl);
