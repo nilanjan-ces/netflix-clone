@@ -51,6 +51,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
             document.getElementById('root')
           );
     }
+    console.log(loadMovie)
     //  useEffect(() => {
     //     async function handleClick() {
     //         //var moviename = getMovie()

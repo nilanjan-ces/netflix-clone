@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import './Nav.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import App from './App'
 function Nav() {
 
